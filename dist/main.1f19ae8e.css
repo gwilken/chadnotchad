@@ -1,0 +1,21 @@
+body {
+  background-color: hotpink;
+}
+
+.image-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+}
+
+#inputVideo {
+  position: absolute;
+  width: 640px;
+  height: 480px;
+}
+
+#overlay {
+  position: absolute;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
