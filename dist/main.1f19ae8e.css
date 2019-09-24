@@ -1,11 +1,82 @@
+/* pacifico-regular - latin */
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("/pacifico-v16-latin-regular.843b5bf8.woff2") format("woff2"), url("/pacifico-v16-latin-regular.367b5312.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "Monstroula";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/Monstroula-Roman.f93845d0.woff") format("woff"), url("/Monstroula-Roman.38fe02a6.woff2") format("woff2");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "SurfboardITCTT";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/SURFI.18018c48.woff") format("woff"), url("/SURFI.6dba2878.woff2") format("woff2");
+  /* Modern Browsers */
+}
 body {
-  background-color: hotpink;
+  background-color: #fdfbef;
+  background-image: url("/mc-pattern-light.6bd5206d.png");
+  background-size: contain;
+  margin: 0;
 }
 
-.image-container {
-  position: relative;
-  width: 640px;
-  height: 480px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+header .logo-container {
+  width: 30%;
+  margin: 0 1rem;
+}
+header .logo-container h1 {
+  font-family: "Monstroula";
+  color: black;
+  letter-spacing: 0.09rem;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0.5rem 0;
+  font-weight: normal;
+}
+
+.font-monstroula {
+  font-family: "Monstroula";
+}
+
+.font-pacifico {
+  font-family: "pacifico";
+}
+
+.font-surfboard {
+  font-family: "SurfboardITCTT";
+}
+
+.color-red {
+  color: #C02628;
+}
+
+#status {
+  font-family: "Pacifico";
+  color: cyan;
+  letter-spacing: 0.09rem;
+  font-size: 3rem;
+}
+
+.tv-container {
+  display: flex;
+}
+.tv-container .tv-image {
+  margin: -7% auto 0 5%;
 }
 
 #inputVideo {

@@ -4,18 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000">
-    <!-- <link rel="stylesheet" href="/css/main.css"> -->
     <title>CHAD, NOT CHAD</title>
   <link rel="stylesheet" href="/main.1f19ae8e.css"></head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
   
-    <div class="image-container">
-      <video onplay="onPlay(this)" id="inputVideo" autoplay="" muted=""></video>
+    <header>
+      <div class="logo-container">
+      <h1>
+        <span class="font-surfboard color-red">Chad,</span>
+        <span class="font-monstroula">Not Chad.</span>
+      </h1>
+      </div>
+    </header>
+
+    <div class="tv-container">
+      <img class="tv-image" src="/tv3.859692fd.svg">
+      <video id="inputVideo" autoplay="" muted=""></video>
       <canvas id="overlay" width="640" height="480"></canvas>
     </div>
 
-    <script src="/main.1f19ae8e.js"></script>
+    <div id="status"></div>
 
+    <script src="/main.1f19ae8e.js"></script>
   </body>
 </html>

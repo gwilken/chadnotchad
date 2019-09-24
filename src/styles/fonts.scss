@@ -1,0 +1,58 @@
+/* pacifico-regular - latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+       url('../fonts/pacifico-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/pacifico-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+// @font-face {
+//   font-family: 'Remachine';
+//   font-style: normal;
+//   font-weight: normal;
+//   src: local('Remachine'), 
+//     url('../fonts/remachine.woff') format('woff'), /* Modern Browsers */
+//     url('../fonts/remachine.woff2') format('woff2'); /* Modern Browsers */
+// }
+
+@font-face {
+  font-family: 'Monstroula';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Monstroula-Roman.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Monstroula-Roman.woff2') format('woff2'); /* Modern Browsers */
+}
+
+// @font-face {
+//   font-family: 'Assembly';
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url('../fonts/AssemblyOutlineSSK-Regular.woff') format('woff'), /* Modern Browsers */
+//     url('../fonts/AssemblyOutlineSSK-Regular.woff2') format('woff2'); /* Modern Browsers */
+// }
+
+// @font-face {
+//   font-family: 'BlackcurrantCameo';
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url('../fonts/BlackcurrantCameo-Regular.woff') format('woff'), /* Modern Browsers */
+//     url('../fonts/BlackcurrantCameo-Regular.woff2') format('woff2'); /* Modern Browsers */
+// }
+
+// @font-face {
+//   font-family: 'RockArt';
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url('../fonts/RockArt-Normal.woff') format('woff'), /* Modern Browsers */
+//     url('../fonts/RockArt-Normal.woff2') format('woff2'); /* Modern Browsers */
+// }
+
+@font-face {
+  font-family: 'SurfboardITCTT';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/SURFI.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/SURFI.woff2') format('woff2'); /* Modern Browsers */
+}

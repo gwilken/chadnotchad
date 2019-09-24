@@ -3,82 +3,100 @@ import * as faceapi from 'face-api.js';
 import { docReady } from './utils/docReady'
 import { consoleArt } from './scripts/logo'
 
+const axios = require('axios')
+
 const MODEL_URL = './models'
-const MTCNN_OPTIONS = { minFaceSize: 200 }
+const MTCNN_OPTIONS = { minFaceSize: 100 }
 
-docReady( async () => { 
-  await faceapi.loadSsdMobilenetv1Model(MODEL_URL)
-  await faceapi.loadFaceLandmarkModel(MODEL_URL)
-  await faceapi.loadMtcnnModel(MODEL_URL)
-  await faceapi.loadFaceRecognitionModel(MODEL_URL)
 
-  const labels = ['katie', 'ben', 'anthony', 'marya', 'mel', 'vietnam', 'john', 'greg']
+// docReady( async () => { 
+//   const videoEl = document.getElementById('inputVideo');
+//   const canvas = document.getElementById('overlay');
+//   const ctx = canvas.getContext('2d');
 
-  const labeledFaceDescriptors = await Promise.all(
-    labels.map(async label => {
-      // fetch image data from urls and convert blob to HTMLImage element
-      const imgUrl = `./images/${label}.jpg`
-      const img = await faceapi.fetchImage(imgUrl)
-      
-      // detect the face with the highest score in the image and compute it's landmarks and face descriptor
-      const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
-      
-      if (!fullFaceDescription) {
-        throw new Error(`no faces detected for ${label}`)
-      }
-      
-      const faceDescriptors = [fullFaceDescription.descriptor]
-      return new faceapi.LabeledFaceDescriptors(label, faceDescriptors)
-    })
-  )
+//   const statusDiv = document.getElementById('status')
+//   // const faceScoreDiv = document.getElementById('face-score')
+//   // const faceLabelDiv = document.getElementById('face-label')
 
-  console.log(labeledFaceDescriptors)
+//   await faceapi.loadSsdMobilenetv1Model(MODEL_URL)
+//   await faceapi.loadFaceLandmarkModel(MODEL_URL)
+//   await faceapi.loadMtcnnModel(MODEL_URL)  
+//   await faceapi.loadFaceRecognitionModel(MODEL_URL)
+
+//   statusDiv.innerHTML = 'Models loaded.'
+
+
+//   let res = await axios.get('/data.json')
   
+//   let labeledFaceDescriptors = await Promise.all(
+//       res.data.map(async elem => {
+//         let arr = new Float32Array( Object.values(elem._descriptors[0]) )
+//         return new faceapi.LabeledFaceDescriptors(elem._label, [arr])
+//       })
+//     )
 
-  navigator.getUserMedia(
-    { 
-      video: {} 
-    },
-    stream => videoEl.srcObject = stream,
-    err => console.error(err)
-  )
+//   statusDiv.innerHTML = 'Face Descriptors loaded.'
   
-let prevBoxCoords = null
+//   navigator.getUserMedia(
+//     { 
+//       video: {} 
+//     },
+//     stream => videoEl.srcObject = stream,
+//     err => console.error(err)
+//   )
+  
+// const options = new faceapi.MtcnnOptions(MTCNN_OPTIONS)
+// const maxDescriptorDistance = 0.6
+// const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
 
-const videoEl = document.getElementById('inputVideo');
-const canvas = document.getElementById('overlay');
-const ctx = canvas.getContext('2d');
-const options = new faceapi.MtcnnOptions(MTCNN_OPTIONS)
+// statusDiv.innerHTML = 'Face Matcher loaded.'
+
+// const detect = async () => {
+//   statusDiv.innerHTML = 'Detecting...'
+  
+//   const results = await faceapi.detectAllFaces(videoEl, options).withFaceLandmarks().withFaceDescriptors()
+
+//   if (results) {
+//     results.forEach(result => {      
+//       // faceScoreDiv.innerHTML = `face detected score: ${result.detection.score}`
+      
+//       ctx.clearRect(0, 0, 640, 480)
+      
+//       let dims = faceapi.matchDimensions(videoEl, canvas)
+//       let faceDescription = faceapi.resizeResults(result, dims)
+      
+//       const matchResults = faceMatcher.findBestMatch(faceDescription.descriptor)
+//       const box = faceDescription.detection.box
+//       let text = matchResults.label
+      
+//       if (text === 'unknown') {
+//         text = 'not chad'
+//       }
+
+//       // faceLabelDiv.innerHTML = `best match: ${text}`
     
-const maxDescriptorDistance = 0.6
+//       const drawBox = new faceapi.draw.DrawBox(
+//         box, 
+//         { 
+//           label: text, 
+//           lineWidth: 2, 
+//           boxColor: 'yellow',
+//           drawLabelOptions: {
+//             fontColor: 'black',
+//             fontSize: 36,
+//             fontStyle: 'Pacifico',
+//             padding: 6
+//           } 
+//         }
+//       )
 
-const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
+//       drawBox.draw(canvas)
+//     })
+//   }
+//   requestAnimationFrame(detect);
+//  }
 
+//   videoEl.onplay = detect
 
-const detect = async () => {
-  const results = await faceapi.detectAllFaces(videoEl, options).withFaceLandmarks().withFaceDescriptors()
-
-  if (results) {
-    results.forEach(result => {
-      ctx.clearRect(0, 0, 640, 480)
-  
-      
-      
-      let dims = faceapi.matchDimensions(videoEl, canvas)
-      let faceDescription = faceapi.resizeResults(result, dims)
-      
-      const matchResults = faceMatcher.findBestMatch(faceDescription.descriptor)
-      
-      console.log(matchResults)
-
-      faceapi.draw.drawDetections(canvas, faceDescription)
-    })
-  }
-  requestAnimationFrame(detect);
- }
-
-  videoEl.onplay = detect
-
-  consoleArt()
-
-});
+//   consoleArt()
+// });

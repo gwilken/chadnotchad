@@ -1,11 +1,66 @@
+@import 'fonts';
+
 body {
-  background-color: hotpink;
+  background-color: #fdfbef;
+  background-image: url('../images/mc-pattern-light.png');
+  background-size: contain;
+  margin: 0;
 }
 
-.image-container {
-  position: relative;
-  width: 640px;
-  height: 480px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  .logo-container {
+    width: 30%;
+    margin: 0 1rem;
+    h1 {
+      font-family: 'Monstroula';
+      color: black;
+      letter-spacing: .09rem;
+      font-size: 5rem;
+      margin: 0;
+      padding: .5rem 0;
+      font-weight: normal;
+    }
+
+  }
+}
+
+.font-monstroula {
+  font-family: "Monstroula";
+}
+
+.font-pacifico {
+  font-family: "pacifico";
+}
+
+.font-surfboard {
+  font-family: 'SurfboardITCTT';
+}
+
+.color-red {
+  color: #C02628;
+}
+
+#status {
+  font-family: 'Pacifico';
+  color: cyan;
+  letter-spacing: .09rem;
+  font-size: 3rem;
+}
+  
+
+.tv-container {
+  display: flex;
+
+  .tv-image {
+    margin: -7% auto 0 5%;
+  }
 }
 
 #inputVideo {
@@ -17,3 +72,5 @@ body {
 #overlay {
   position: absolute;
 }
+
+

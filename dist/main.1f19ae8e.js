@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/tslib/tslib.es6.js":[function(require,module,exports) {
+},{"./../fonts/pacifico-v16-latin-regular.woff2":[["pacifico-v16-latin-regular.843b5bf8.woff2","fonts/pacifico-v16-latin-regular.woff2"],"fonts/pacifico-v16-latin-regular.woff2"],"./../fonts/pacifico-v16-latin-regular.woff":[["pacifico-v16-latin-regular.367b5312.woff","fonts/pacifico-v16-latin-regular.woff"],"fonts/pacifico-v16-latin-regular.woff"],"./../fonts/Monstroula-Roman.woff":[["Monstroula-Roman.f93845d0.woff","fonts/Monstroula-Roman.woff"],"fonts/Monstroula-Roman.woff"],"./../fonts/Monstroula-Roman.woff2":[["Monstroula-Roman.38fe02a6.woff2","fonts/Monstroula-Roman.woff2"],"fonts/Monstroula-Roman.woff2"],"./../fonts/SURFI.woff":[["SURFI.18018c48.woff","fonts/SURFI.woff"],"fonts/SURFI.woff"],"./../fonts/SURFI.woff2":[["SURFI.6dba2878.woff2","fonts/SURFI.woff2"],"fonts/SURFI.woff2"],"./../images/mc-pattern-light.png":[["mc-pattern-light.6bd5206d.png","images/mc-pattern-light.png"],"images/mc-pattern-light.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/tslib/tslib.es6.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22894,7 +22894,7 @@ exports.constants = {
   'POINT_CONVERSION_HYBRID': 6
 }
 
-},{"randombytes":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/randombytes/browser.js","create-hash":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-hash/browser.js","create-hmac":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-hmac/browser.js","browserify-sign/algos":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-sign/algos.js","pbkdf2":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/pbkdf2/browser.js","browserify-cipher":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-cipher/browser.js","diffie-hellman":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/diffie-hellman/browser.js","browserify-sign":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-sign/browser/index.js","create-ecdh":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-ecdh/browser.js","public-encrypt":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/public-encrypt/browser.js","randomfill":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/randomfill/browser.js"}],"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js":[function(require,module,exports) {
+},{"randombytes":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/randombytes/browser.js","create-hash":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-hash/browser.js","create-hmac":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-hmac/browser.js","browserify-sign/algos":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-sign/algos.js","pbkdf2":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/pbkdf2/browser.js","browserify-cipher":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-cipher/browser.js","diffie-hellman":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/diffie-hellman/browser.js","browserify-sign":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/browserify-sign/browser/index.js","create-ecdh":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/create-ecdh/browser.js","public-encrypt":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/public-encrypt/browser.js","randomfill":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/randomfill/browser.js"}],"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js":[function(require,module,exports) {
 var process = require("process");
 var global = arguments[3];
 var Buffer = require("buffer").Buffer;
@@ -38961,7 +38961,7 @@ function Jh() {
 }
 
 lt = Rc;
-},{"crypto":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/crypto-browserify/index.js","node-fetch":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/_empty.js","util":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/_empty.js","process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js","buffer":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/buffer/index.js"}],"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js":[function(require,module,exports) {
+},{"crypto":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/crypto-browserify/index.js","node-fetch":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/_empty.js","util":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/_empty.js","process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js","buffer":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/buffer/index.js"}],"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js":[function(require,module,exports) {
 var global = arguments[3];
 var process = require("process");
 var Buffer = require("buffer").Buffer;
@@ -56121,7 +56121,7 @@ function isValidNumber(num) {
 function isValidProbablitiy(num) {
   return isValidNumber(num) && 0 <= num && num <= 1.0;
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../classes/Dimensions":"../node_modules/tfjs-image-recognition-base/build/es6/classes/Dimensions.js","../classes/Point":"../node_modules/tfjs-image-recognition-base/build/es6/classes/Point.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/classes/Box.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../classes/Dimensions":"../node_modules/tfjs-image-recognition-base/build/es6/classes/Dimensions.js","../classes/Point":"../node_modules/tfjs-image-recognition-base/build/es6/classes/Point.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/classes/Box.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57395,7 +57395,7 @@ function convLayer(x, params, padding, withRelu) {
     return withRelu ? tf.relu(out) : out;
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/disposeUnusedWeightTensors.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/disposeUnusedWeightTensors.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57441,7 +57441,7 @@ function extractConvParamsFactory(extractWeights, paramMappings) {
     };
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/extractFCParamsFactory.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/extractFCParamsFactory.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57470,7 +57470,7 @@ function extractFCParamsFactory(extractWeights, paramMappings) {
     };
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/types.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/types.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57532,7 +57532,7 @@ function loadSeparableConvParamsFactory(extractWeightEntry) {
     return new _types.SeparableConvParams(depthwise_filter, pointwise_filter, bias);
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./types":"../node_modules/tfjs-image-recognition-base/build/es6/common/types.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/extractWeightEntryFactory.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./types":"../node_modules/tfjs-image-recognition-base/build/es6/common/types.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/common/extractWeightEntryFactory.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58099,7 +58099,7 @@ function imageTensorToCanvas(imgTensor, canvas) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js","../utils":"../node_modules/tfjs-image-recognition-base/build/es6/utils/index.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/imageToSquare.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js","../utils":"../node_modules/tfjs-image-recognition-base/build/es6/utils/index.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/imageToSquare.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58202,7 +58202,7 @@ function loadWeightMap(uri, defaultModelName) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/getModelUris":"../node_modules/tfjs-image-recognition-base/build/es6/common/getModelUris.js","./fetchJson":"../node_modules/tfjs-image-recognition-base/build/es6/dom/fetchJson.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/matchDimensions.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/getModelUris":"../node_modules/tfjs-image-recognition-base/build/es6/common/getModelUris.js","./fetchJson":"../node_modules/tfjs-image-recognition-base/build/es6/dom/fetchJson.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/matchDimensions.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58285,7 +58285,7 @@ function padToSquare(imgTensor, isCenterImage) {
     return tf.concat(tensorsToStack, paddingAxis);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/NetInput.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/NetInput.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58488,7 +58488,7 @@ function () {
 }();
 
 exports.NetInput = NetInput;
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js","../ops/padToSquare":"../node_modules/tfjs-image-recognition-base/build/es6/ops/padToSquare.js","../utils":"../node_modules/tfjs-image-recognition-base/build/es6/utils/index.js","./createCanvas":"../node_modules/tfjs-image-recognition-base/build/es6/dom/createCanvas.js","./imageToSquare":"../node_modules/tfjs-image-recognition-base/build/es6/dom/imageToSquare.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/toNetInput.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js","../ops/padToSquare":"../node_modules/tfjs-image-recognition-base/build/es6/ops/padToSquare.js","../utils":"../node_modules/tfjs-image-recognition-base/build/es6/utils/index.js","./createCanvas":"../node_modules/tfjs-image-recognition-base/build/es6/dom/createCanvas.js","./imageToSquare":"../node_modules/tfjs-image-recognition-base/build/es6/dom/imageToSquare.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/dom/toNetInput.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59088,7 +59088,7 @@ function () {
 }();
 
 exports.NeuralNetwork = NeuralNetwork;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./common/getModelUris":"../node_modules/tfjs-image-recognition-base/build/es6/common/getModelUris.js","./dom":"../node_modules/tfjs-image-recognition-base/build/es6/dom/index.js","./env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/ops/iou.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./common/getModelUris":"../node_modules/tfjs-image-recognition-base/build/es6/common/getModelUris.js","./dom":"../node_modules/tfjs-image-recognition-base/build/es6/dom/index.js","./env":"../node_modules/tfjs-image-recognition-base/build/es6/env/index.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/ops/iou.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59216,7 +59216,7 @@ function normalize(x, meanRgb) {
     return tf.sub(x, avg_rgb);
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/ops/shuffleArray.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/ops/shuffleArray.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59397,7 +59397,7 @@ function leaky(x) {
     return tf.add(tf.relu(tf.sub(x, min)), min); //return tf.maximum(x, min)
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/convWithBatchNorm.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/convWithBatchNorm.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59423,7 +59423,7 @@ function convWithBatchNorm(x, params) {
     return (0, _leaky.leaky)(out);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/depthwiseSeparableConv.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/depthwiseSeparableConv.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59447,7 +59447,7 @@ function depthwiseSeparableConv(x, params) {
     return (0, _leaky.leaky)(out);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParams.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParams.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59586,7 +59586,7 @@ function extractParams(weights, config, boxEncodingSize, filterSizes) {
     paramMappings: paramMappings
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common":"../node_modules/tfjs-image-recognition-base/build/es6/common/index.js","../common/extractSeparableConvParamsFactory":"../node_modules/tfjs-image-recognition-base/build/es6/common/extractSeparableConvParamsFactory.js","../common/extractWeightsFactory":"../node_modules/tfjs-image-recognition-base/build/es6/common/extractWeightsFactory.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParamsFromWeigthMap.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common":"../node_modules/tfjs-image-recognition-base/build/es6/common/index.js","../common/extractSeparableConvParamsFactory":"../node_modules/tfjs-image-recognition-base/build/es6/common/extractSeparableConvParamsFactory.js","../common/extractWeightsFactory":"../node_modules/tfjs-image-recognition-base/build/es6/common/extractWeightsFactory.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParamsFromWeigthMap.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60149,7 +60149,7 @@ function (_super) {
 }(_NeuralNetwork.NeuralNetwork);
 
 exports.TinyYolov2 = TinyYolov2;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/tfjs-image-recognition-base/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../classes/BoundingBox":"../node_modules/tfjs-image-recognition-base/build/es6/classes/BoundingBox.js","../classes/ObjectDetection":"../node_modules/tfjs-image-recognition-base/build/es6/classes/ObjectDetection.js","../common":"../node_modules/tfjs-image-recognition-base/build/es6/common/index.js","../dom":"../node_modules/tfjs-image-recognition-base/build/es6/dom/index.js","../NeuralNetwork":"../node_modules/tfjs-image-recognition-base/build/es6/NeuralNetwork.js","../ops":"../node_modules/tfjs-image-recognition-base/build/es6/ops/index.js","../ops/nonMaxSuppression":"../node_modules/tfjs-image-recognition-base/build/es6/ops/nonMaxSuppression.js","../ops/normalize":"../node_modules/tfjs-image-recognition-base/build/es6/ops/normalize.js","./config":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/config.js","./convWithBatchNorm":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/convWithBatchNorm.js","./depthwiseSeparableConv":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/depthwiseSeparableConv.js","./extractParams":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParamsFromWeigthMap.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js","./TinyYolov2Options":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/TinyYolov2Options.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../classes/BoundingBox":"../node_modules/tfjs-image-recognition-base/build/es6/classes/BoundingBox.js","../classes/ObjectDetection":"../node_modules/tfjs-image-recognition-base/build/es6/classes/ObjectDetection.js","../common":"../node_modules/tfjs-image-recognition-base/build/es6/common/index.js","../dom":"../node_modules/tfjs-image-recognition-base/build/es6/dom/index.js","../NeuralNetwork":"../node_modules/tfjs-image-recognition-base/build/es6/NeuralNetwork.js","../ops":"../node_modules/tfjs-image-recognition-base/build/es6/ops/index.js","../ops/nonMaxSuppression":"../node_modules/tfjs-image-recognition-base/build/es6/ops/nonMaxSuppression.js","../ops/normalize":"../node_modules/tfjs-image-recognition-base/build/es6/ops/normalize.js","./config":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/config.js","./convWithBatchNorm":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/convWithBatchNorm.js","./depthwiseSeparableConv":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/depthwiseSeparableConv.js","./extractParams":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/extractParamsFromWeigthMap.js","./leaky":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/leaky.js","./TinyYolov2Options":"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/TinyYolov2Options.js"}],"../node_modules/tfjs-image-recognition-base/build/es6/tinyYolov2/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60463,7 +60463,7 @@ function depthwiseSeparableConv(x, params, stride) {
     return out;
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60513,7 +60513,7 @@ function denseBlock4(x, denseBlockParams, isFirstLayer, isScaleDown) {
     return tf.relu(tf.add(out1, tf.add(out2, tf.add(out3, out4))));
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/depthwiseSeparableConv":"../node_modules/face-api.js/build/es6/common/depthwiseSeparableConv.js"}],"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractorsFactory.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/depthwiseSeparableConv":"../node_modules/face-api.js/build/es6/common/depthwiseSeparableConv.js"}],"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractorsFactory.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60799,7 +60799,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.FaceFeatureExtractor = FaceFeatureExtractor;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./denseBlock":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js","./extractParams":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsFromWeigthMap.js"}],"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./denseBlock":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js","./extractParams":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsFromWeigthMap.js"}],"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60818,7 +60818,7 @@ function fullyConnectedLayer(x, params) {
     return tf.add(tf.matMul(x, params.weights), params.bias);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceProcessor/extractParams.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceProcessor/extractParams.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -61012,7 +61012,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.FaceProcessor = FaceProcessor;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./extractParams":"../node_modules/face-api.js/build/es6/faceProcessor/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceProcessor/extractParamsFromWeigthMap.js","./util":"../node_modules/face-api.js/build/es6/faceProcessor/util.js"}],"../node_modules/face-api.js/build/es6/faceExpressionNet/FaceExpressions.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./extractParams":"../node_modules/face-api.js/build/es6/faceProcessor/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceProcessor/extractParamsFromWeigthMap.js","./util":"../node_modules/face-api.js/build/es6/faceProcessor/util.js"}],"../node_modules/face-api.js/build/es6/faceExpressionNet/FaceExpressions.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -61194,7 +61194,7 @@ function (_super) {
 }(_FaceProcessor.FaceProcessor);
 
 exports.FaceExpressionNet = FaceExpressionNet;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../faceFeatureExtractor/FaceFeatureExtractor":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/FaceFeatureExtractor.js","../faceProcessor/FaceProcessor":"../node_modules/face-api.js/build/es6/faceProcessor/FaceProcessor.js","./FaceExpressions":"../node_modules/face-api.js/build/es6/faceExpressionNet/FaceExpressions.js"}],"../node_modules/face-api.js/build/es6/faceExpressionNet/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../faceFeatureExtractor/FaceFeatureExtractor":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/FaceFeatureExtractor.js","../faceProcessor/FaceProcessor":"../node_modules/face-api.js/build/es6/faceProcessor/FaceProcessor.js","./FaceExpressions":"../node_modules/face-api.js/build/es6/faceExpressionNet/FaceExpressions.js"}],"../node_modules/face-api.js/build/es6/faceExpressionNet/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -62038,7 +62038,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.TinyXception = TinyXception;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/depthwiseSeparableConv":"../node_modules/face-api.js/build/es6/common/depthwiseSeparableConv.js","./extractParams":"../node_modules/face-api.js/build/es6/xception/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/xception/extractParamsFromWeigthMap.js"}],"../node_modules/face-api.js/build/es6/ageGenderNet/extractParams.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/depthwiseSeparableConv":"../node_modules/face-api.js/build/es6/common/depthwiseSeparableConv.js","./extractParams":"../node_modules/face-api.js/build/es6/xception/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/xception/extractParamsFromWeigthMap.js"}],"../node_modules/face-api.js/build/es6/ageGenderNet/extractParams.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -62365,7 +62365,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.AgeGenderNet = AgeGenderNet;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","../faceProcessor/util":"../node_modules/face-api.js/build/es6/faceProcessor/util.js","../xception/TinyXception":"../node_modules/face-api.js/build/es6/xception/TinyXception.js","./extractParams":"../node_modules/face-api.js/build/es6/ageGenderNet/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/ageGenderNet/extractParamsFromWeigthMap.js","./types":"../node_modules/face-api.js/build/es6/ageGenderNet/types.js"}],"../node_modules/face-api.js/build/es6/ageGenderNet/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","../faceProcessor/util":"../node_modules/face-api.js/build/es6/faceProcessor/util.js","../xception/TinyXception":"../node_modules/face-api.js/build/es6/xception/TinyXception.js","./extractParams":"../node_modules/face-api.js/build/es6/ageGenderNet/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/ageGenderNet/extractParamsFromWeigthMap.js","./types":"../node_modules/face-api.js/build/es6/ageGenderNet/types.js"}],"../node_modules/face-api.js/build/es6/ageGenderNet/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -62759,7 +62759,7 @@ function extractFaceTensors(imageTensor, detections) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js"}],"../node_modules/face-api.js/build/es6/dom/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js"}],"../node_modules/face-api.js/build/es6/dom/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -62976,7 +62976,7 @@ function (_super) {
 }(_FaceProcessor.FaceProcessor);
 
 exports.FaceLandmark68NetBase = FaceLandmark68NetBase;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceLandmarks68":"../node_modules/face-api.js/build/es6/classes/FaceLandmarks68.js","../faceProcessor/FaceProcessor":"../node_modules/face-api.js/build/es6/faceProcessor/FaceProcessor.js"}],"../node_modules/face-api.js/build/es6/faceLandmarkNet/FaceLandmark68Net.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceLandmarks68":"../node_modules/face-api.js/build/es6/classes/FaceLandmarks68.js","../faceProcessor/FaceProcessor":"../node_modules/face-api.js/build/es6/faceProcessor/FaceProcessor.js"}],"../node_modules/face-api.js/build/es6/faceLandmarkNet/FaceLandmark68Net.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63173,7 +63173,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.TinyFaceFeatureExtractor = TinyFaceFeatureExtractor;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./denseBlock":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js","./extractParamsFromWeigthMapTiny":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsFromWeigthMapTiny.js","./extractParamsTiny":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsTiny.js"}],"../node_modules/face-api.js/build/es6/faceLandmarkNet/FaceLandmark68TinyNet.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./denseBlock":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/denseBlock.js","./extractParamsFromWeigthMapTiny":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsFromWeigthMapTiny.js","./extractParamsTiny":"../node_modules/face-api.js/build/es6/faceFeatureExtractor/extractParamsTiny.js"}],"../node_modules/face-api.js/build/es6/faceLandmarkNet/FaceLandmark68TinyNet.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63289,7 +63289,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function scale(x, params) {
   return tf.add(tf.mul(x, params.weights), params.biases);
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63332,7 +63332,7 @@ function convNoRelu(x, params) {
 function convDown(x, params) {
   return convLayer(x, params, [2, 2], true, 'valid');
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./scaleLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/scaleLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParams.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./scaleLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/scaleLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParams.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63478,7 +63478,7 @@ function extractParams(weights) {
     paramMappings: paramMappings
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParamsFromWeigthMap.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParamsFromWeigthMap.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63633,7 +63633,7 @@ function residualDown(x, params) {
   out = tf.relu(out);
   return out;
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./convLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/FaceRecognitionNet.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./convLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/FaceRecognitionNet.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63775,7 +63775,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.FaceRecognitionNet = FaceRecognitionNet;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./convLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js","./extractParams":"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParamsFromWeigthMap.js","./residualLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/residualLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./convLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/convLayer.js","./extractParams":"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/faceRecognitionNet/extractParamsFromWeigthMap.js","./residualLayer":"../node_modules/face-api.js/build/es6/faceRecognitionNet/residualLayer.js"}],"../node_modules/face-api.js/build/es6/faceRecognitionNet/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64175,7 +64175,7 @@ function extractParams(weights) {
     paramMappings: paramMappings
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParamsFromWeigthMap.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParamsFromWeigthMap.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64334,7 +64334,7 @@ function pointwiseConvLayer(x, params, strides) {
     return tf.clipByValue(out, 0, 6);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/mobileNetV1.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/mobileNetV1.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64392,7 +64392,7 @@ function mobileNetV1(x, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./pointwiseConvLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/pointwiseConvLayer.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/nonMaxSuppression.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./pointwiseConvLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/pointwiseConvLayer.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/nonMaxSuppression.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64524,7 +64524,7 @@ function outputLayer(boxPredictions, classPredictions, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/boxPredictionLayer.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/boxPredictionLayer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64551,7 +64551,7 @@ function boxPredictionLayer(x, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/predictionLayer.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/predictionLayer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64593,7 +64593,7 @@ function predictionLayer(x, conv11, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./boxPredictionLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/boxPredictionLayer.js","./pointwiseConvLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/pointwiseConvLayer.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/SsdMobilenetv1Options.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","./boxPredictionLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/boxPredictionLayer.js","./pointwiseConvLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/pointwiseConvLayer.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/SsdMobilenetv1Options.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64810,7 +64810,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.SsdMobilenetv1 = SsdMobilenetv1;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js","./extractParams":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParamsFromWeigthMap.js","./mobileNetV1":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/mobileNetV1.js","./nonMaxSuppression":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/nonMaxSuppression.js","./outputLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/outputLayer.js","./predictionLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/predictionLayer.js","./SsdMobilenetv1Options":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/SsdMobilenetv1Options.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/index.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js","./extractParams":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/extractParamsFromWeigthMap.js","./mobileNetV1":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/mobileNetV1.js","./nonMaxSuppression":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/nonMaxSuppression.js","./outputLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/outputLayer.js","./predictionLayer":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/predictionLayer.js","./SsdMobilenetv1Options":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/SsdMobilenetv1Options.js"}],"../node_modules/face-api.js/build/es6/ssdMobilenetv1/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65071,7 +65071,7 @@ function extractSingleFaceAndComputeResult(parentResult, input, computeResult, e
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../dom":"../node_modules/face-api.js/build/es6/dom/index.js","../factories/WithFaceLandmarks":"../node_modules/face-api.js/build/es6/factories/WithFaceLandmarks.js"}],"../node_modules/face-api.js/build/es6/mtcnn/bgrToRgbTensor.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../dom":"../node_modules/face-api.js/build/es6/dom/index.js","../factories/WithFaceLandmarks":"../node_modules/face-api.js/build/es6/factories/WithFaceLandmarks.js"}],"../node_modules/face-api.js/build/es6/mtcnn/bgrToRgbTensor.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65090,7 +65090,7 @@ function bgrToRgbTensor(tensor) {
     return tf.stack(tf.unstack(tensor, 3).reverse(), 3);
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/config.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/config.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65233,7 +65233,7 @@ function extractParams(weights) {
     paramMappings: paramMappings
   };
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/mtcnn/extractParamsFromWeigthMap.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js"}],"../node_modules/face-api.js/build/es6/mtcnn/extractParamsFromWeigthMap.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65460,7 +65460,7 @@ function normalize(x) {
     return tf.mul(tf.sub(x, tf.scalar(127.5)), tf.scalar(0.0078125));
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/prelu.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/prelu.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65479,7 +65479,7 @@ function prelu(x, alpha) {
     return tf.add(tf.relu(x), tf.mul(alpha, tf.neg(tf.relu(tf.neg(x)))));
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js"}],"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65515,7 +65515,7 @@ function sharedLayer(x, params, isPnet) {
     return out;
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js"}],"../node_modules/face-api.js/build/es6/mtcnn/PNet.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js"}],"../node_modules/face-api.js/build/es6/mtcnn/PNet.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65550,7 +65550,7 @@ function PNet(x, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage1.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage1.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65698,7 +65698,7 @@ function stage1(imgTensor, scales, scoreThreshold, params, stats) {
     scores: finalScores
   };
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./config":"../node_modules/face-api.js/build/es6/mtcnn/config.js","./getSizesForScale":"../node_modules/face-api.js/build/es6/mtcnn/getSizesForScale.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./normalize":"../node_modules/face-api.js/build/es6/mtcnn/normalize.js","./PNet":"../node_modules/face-api.js/build/es6/mtcnn/PNet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./config":"../node_modules/face-api.js/build/es6/mtcnn/config.js","./getSizesForScale":"../node_modules/face-api.js/build/es6/mtcnn/getSizesForScale.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./normalize":"../node_modules/face-api.js/build/es6/mtcnn/normalize.js","./PNet":"../node_modules/face-api.js/build/es6/mtcnn/PNet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65782,7 +65782,7 @@ function extractImagePatches(img, boxes, _a) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./normalize":"../node_modules/face-api.js/build/es6/mtcnn/normalize.js"}],"../node_modules/face-api.js/build/es6/mtcnn/RNet.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./normalize":"../node_modules/face-api.js/build/es6/mtcnn/normalize.js"}],"../node_modules/face-api.js/build/es6/mtcnn/RNet.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65819,7 +65819,7 @@ function RNet(x, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage2.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage2.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65929,7 +65929,7 @@ function stage2(img, inputBoxes, scoreThreshold, params, stats) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./extractImagePatches":"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./RNet":"../node_modules/face-api.js/build/es6/mtcnn/RNet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/ONet.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./extractImagePatches":"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./RNet":"../node_modules/face-api.js/build/es6/mtcnn/RNet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/ONet.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -65973,7 +65973,7 @@ function ONet(x, params) {
     };
   });
 }
-},{"@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage3.js":[function(require,module,exports) {
+},{"@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../common/fullyConnectedLayer":"../node_modules/face-api.js/build/es6/common/fullyConnectedLayer.js","./prelu":"../node_modules/face-api.js/build/es6/mtcnn/prelu.js","./sharedLayers":"../node_modules/face-api.js/build/es6/mtcnn/sharedLayers.js"}],"../node_modules/face-api.js/build/es6/mtcnn/stage3.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66092,7 +66092,7 @@ function stage3(img, inputBoxes, scoreThreshold, params, stats) {
     });
   });
 }
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./extractImagePatches":"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./ONet":"../node_modules/face-api.js/build/es6/mtcnn/ONet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/Mtcnn.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./extractImagePatches":"../node_modules/face-api.js/build/es6/mtcnn/extractImagePatches.js","./MtcnnBox":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnBox.js","./ONet":"../node_modules/face-api.js/build/es6/mtcnn/ONet.js"}],"../node_modules/face-api.js/build/es6/mtcnn/Mtcnn.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66332,7 +66332,7 @@ function (_super) {
 }(_tfjsImageRecognitionBase.NeuralNetwork);
 
 exports.Mtcnn = Mtcnn;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js","../classes/FaceLandmarks5":"../node_modules/face-api.js/build/es6/classes/FaceLandmarks5.js","../factories":"../node_modules/face-api.js/build/es6/factories/index.js","./bgrToRgbTensor":"../node_modules/face-api.js/build/es6/mtcnn/bgrToRgbTensor.js","./config":"../node_modules/face-api.js/build/es6/mtcnn/config.js","./extractParams":"../node_modules/face-api.js/build/es6/mtcnn/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/mtcnn/extractParamsFromWeigthMap.js","./getSizesForScale":"../node_modules/face-api.js/build/es6/mtcnn/getSizesForScale.js","./MtcnnOptions":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnOptions.js","./pyramidDown":"../node_modules/face-api.js/build/es6/mtcnn/pyramidDown.js","./stage1":"../node_modules/face-api.js/build/es6/mtcnn/stage1.js","./stage2":"../node_modules/face-api.js/build/es6/mtcnn/stage2.js","./stage3":"../node_modules/face-api.js/build/es6/mtcnn/stage3.js"}],"../node_modules/face-api.js/build/es6/tinyFaceDetector/const.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","../classes/FaceDetection":"../node_modules/face-api.js/build/es6/classes/FaceDetection.js","../classes/FaceLandmarks5":"../node_modules/face-api.js/build/es6/classes/FaceLandmarks5.js","../factories":"../node_modules/face-api.js/build/es6/factories/index.js","./bgrToRgbTensor":"../node_modules/face-api.js/build/es6/mtcnn/bgrToRgbTensor.js","./config":"../node_modules/face-api.js/build/es6/mtcnn/config.js","./extractParams":"../node_modules/face-api.js/build/es6/mtcnn/extractParams.js","./extractParamsFromWeigthMap":"../node_modules/face-api.js/build/es6/mtcnn/extractParamsFromWeigthMap.js","./getSizesForScale":"../node_modules/face-api.js/build/es6/mtcnn/getSizesForScale.js","./MtcnnOptions":"../node_modules/face-api.js/build/es6/mtcnn/MtcnnOptions.js","./pyramidDown":"../node_modules/face-api.js/build/es6/mtcnn/pyramidDown.js","./stage1":"../node_modules/face-api.js/build/es6/mtcnn/stage1.js","./stage2":"../node_modules/face-api.js/build/es6/mtcnn/stage2.js","./stage3":"../node_modules/face-api.js/build/es6/mtcnn/stage3.js"}],"../node_modules/face-api.js/build/es6/tinyFaceDetector/const.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -67671,7 +67671,7 @@ function (_super) {
 }(DetectFaceLandmarksTaskBase);
 
 exports.DetectSingleFaceLandmarksTask = DetectSingleFaceLandmarksTask;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../dom":"../node_modules/face-api.js/build/es6/dom/index.js","../factories/WithFaceLandmarks":"../node_modules/face-api.js/build/es6/factories/WithFaceLandmarks.js","./ComposableTask":"../node_modules/face-api.js/build/es6/globalApi/ComposableTask.js","./ComputeFaceDescriptorsTasks":"../node_modules/face-api.js/build/es6/globalApi/ComputeFaceDescriptorsTasks.js","./nets":"../node_modules/face-api.js/build/es6/globalApi/nets.js","./PredictAgeAndGenderTask":"../node_modules/face-api.js/build/es6/globalApi/PredictAgeAndGenderTask.js","./PredictFaceExpressionsTask":"../node_modules/face-api.js/build/es6/globalApi/PredictFaceExpressionsTask.js"}],"../node_modules/face-api.js/build/es6/globalApi/DetectFacesTasks.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","../dom":"../node_modules/face-api.js/build/es6/dom/index.js","../factories/WithFaceLandmarks":"../node_modules/face-api.js/build/es6/factories/WithFaceLandmarks.js","./ComposableTask":"../node_modules/face-api.js/build/es6/globalApi/ComposableTask.js","./ComputeFaceDescriptorsTasks":"../node_modules/face-api.js/build/es6/globalApi/ComputeFaceDescriptorsTasks.js","./nets":"../node_modules/face-api.js/build/es6/globalApi/nets.js","./PredictAgeAndGenderTask":"../node_modules/face-api.js/build/es6/globalApi/PredictAgeAndGenderTask.js","./PredictFaceExpressionsTask":"../node_modules/face-api.js/build/es6/globalApi/PredictFaceExpressionsTask.js"}],"../node_modules/face-api.js/build/es6/globalApi/DetectFacesTasks.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68602,7 +68602,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 var draw = tslib_1.__assign({}, _tfjsImageRecognitionBase.draw, drawExtended);
 
 exports.draw = draw;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./draw":"../node_modules/face-api.js/build/es6/draw/index.js","./ageGenderNet/index":"../node_modules/face-api.js/build/es6/ageGenderNet/index.js","./classes/index":"../node_modules/face-api.js/build/es6/classes/index.js","./dom/index":"../node_modules/face-api.js/build/es6/dom/index.js","./faceExpressionNet/index":"../node_modules/face-api.js/build/es6/faceExpressionNet/index.js","./faceLandmarkNet/index":"../node_modules/face-api.js/build/es6/faceLandmarkNet/index.js","./faceRecognitionNet/index":"../node_modules/face-api.js/build/es6/faceRecognitionNet/index.js","./factories/index":"../node_modules/face-api.js/build/es6/factories/index.js","./globalApi/index":"../node_modules/face-api.js/build/es6/globalApi/index.js","./mtcnn/index":"../node_modules/face-api.js/build/es6/mtcnn/index.js","./ssdMobilenetv1/index":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/index.js","./tinyFaceDetector/index":"../node_modules/face-api.js/build/es6/tinyFaceDetector/index.js","./tinyYolov2/index":"../node_modules/face-api.js/build/es6/tinyYolov2/index.js","./euclideanDistance":"../node_modules/face-api.js/build/es6/euclideanDistance.js","./resizeResults":"../node_modules/face-api.js/build/es6/resizeResults.js"}],"utils/docReady.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@tensorflow/tfjs-core":"../node_modules/face-api.js/node_modules/@tensorflow/tfjs-core/dist/tf-core.esm.js","tfjs-image-recognition-base":"../node_modules/tfjs-image-recognition-base/build/es6/index.js","./draw":"../node_modules/face-api.js/build/es6/draw/index.js","./ageGenderNet/index":"../node_modules/face-api.js/build/es6/ageGenderNet/index.js","./classes/index":"../node_modules/face-api.js/build/es6/classes/index.js","./dom/index":"../node_modules/face-api.js/build/es6/dom/index.js","./faceExpressionNet/index":"../node_modules/face-api.js/build/es6/faceExpressionNet/index.js","./faceLandmarkNet/index":"../node_modules/face-api.js/build/es6/faceLandmarkNet/index.js","./faceRecognitionNet/index":"../node_modules/face-api.js/build/es6/faceRecognitionNet/index.js","./factories/index":"../node_modules/face-api.js/build/es6/factories/index.js","./globalApi/index":"../node_modules/face-api.js/build/es6/globalApi/index.js","./mtcnn/index":"../node_modules/face-api.js/build/es6/mtcnn/index.js","./ssdMobilenetv1/index":"../node_modules/face-api.js/build/es6/ssdMobilenetv1/index.js","./tinyFaceDetector/index":"../node_modules/face-api.js/build/es6/tinyFaceDetector/index.js","./tinyYolov2/index":"../node_modules/face-api.js/build/es6/tinyYolov2/index.js","./euclideanDistance":"../node_modules/face-api.js/build/es6/euclideanDistance.js","./resizeResults":"../node_modules/face-api.js/build/es6/resizeResults.js"}],"utils/docReady.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68646,12 +68646,1515 @@ const consoleArt = () => {
   ██║     ███████║███████║██║  ██║
   ██║     ██╔══██║██╔══██║██║  ██║
   ╚██████╗██║  ██║██║  ██║██████╔╝
-   ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
-  gwilken.com 2019`);
+   ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ `);
 };
 
 exports.consoleArt = consoleArt;
-},{}],"main.js":[function(require,module,exports) {
+},{}],"../node_modules/axios/lib/helpers/bind.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = function bind(fn, thisArg) {
+  return function wrap() {
+    var args = new Array(arguments.length);
+    for (var i = 0; i < args.length; i++) {
+      args[i] = arguments[i];
+    }
+    return fn.apply(thisArg, args);
+  };
+};
+
+},{}],"../node_modules/axios/node_modules/is-buffer/index.js":[function(require,module,exports) {
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+module.exports = function isBuffer(obj) {
+  return obj != null && obj.constructor != null && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj);
+};
+},{}],"../node_modules/axios/lib/utils.js":[function(require,module,exports) {
+'use strict';
+
+var bind = require('./helpers/bind');
+var isBuffer = require('is-buffer');
+
+/*global toString:true*/
+
+// utils is a library of generic helper functions non-specific to axios
+
+var toString = Object.prototype.toString;
+
+/**
+ * Determine if a value is an Array
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Array, otherwise false
+ */
+function isArray(val) {
+  return toString.call(val) === '[object Array]';
+}
+
+/**
+ * Determine if a value is an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an ArrayBuffer, otherwise false
+ */
+function isArrayBuffer(val) {
+  return toString.call(val) === '[object ArrayBuffer]';
+}
+
+/**
+ * Determine if a value is a FormData
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an FormData, otherwise false
+ */
+function isFormData(val) {
+  return (typeof FormData !== 'undefined') && (val instanceof FormData);
+}
+
+/**
+ * Determine if a value is a view on an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
+ */
+function isArrayBufferView(val) {
+  var result;
+  if ((typeof ArrayBuffer !== 'undefined') && (ArrayBuffer.isView)) {
+    result = ArrayBuffer.isView(val);
+  } else {
+    result = (val) && (val.buffer) && (val.buffer instanceof ArrayBuffer);
+  }
+  return result;
+}
+
+/**
+ * Determine if a value is a String
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a String, otherwise false
+ */
+function isString(val) {
+  return typeof val === 'string';
+}
+
+/**
+ * Determine if a value is a Number
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Number, otherwise false
+ */
+function isNumber(val) {
+  return typeof val === 'number';
+}
+
+/**
+ * Determine if a value is undefined
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if the value is undefined, otherwise false
+ */
+function isUndefined(val) {
+  return typeof val === 'undefined';
+}
+
+/**
+ * Determine if a value is an Object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Object, otherwise false
+ */
+function isObject(val) {
+  return val !== null && typeof val === 'object';
+}
+
+/**
+ * Determine if a value is a Date
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Date, otherwise false
+ */
+function isDate(val) {
+  return toString.call(val) === '[object Date]';
+}
+
+/**
+ * Determine if a value is a File
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a File, otherwise false
+ */
+function isFile(val) {
+  return toString.call(val) === '[object File]';
+}
+
+/**
+ * Determine if a value is a Blob
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Blob, otherwise false
+ */
+function isBlob(val) {
+  return toString.call(val) === '[object Blob]';
+}
+
+/**
+ * Determine if a value is a Function
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Function, otherwise false
+ */
+function isFunction(val) {
+  return toString.call(val) === '[object Function]';
+}
+
+/**
+ * Determine if a value is a Stream
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Stream, otherwise false
+ */
+function isStream(val) {
+  return isObject(val) && isFunction(val.pipe);
+}
+
+/**
+ * Determine if a value is a URLSearchParams object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a URLSearchParams object, otherwise false
+ */
+function isURLSearchParams(val) {
+  return typeof URLSearchParams !== 'undefined' && val instanceof URLSearchParams;
+}
+
+/**
+ * Trim excess whitespace off the beginning and end of a string
+ *
+ * @param {String} str The String to trim
+ * @returns {String} The String freed of excess whitespace
+ */
+function trim(str) {
+  return str.replace(/^\s*/, '').replace(/\s*$/, '');
+}
+
+/**
+ * Determine if we're running in a standard browser environment
+ *
+ * This allows axios to run in a web worker, and react-native.
+ * Both environments support XMLHttpRequest, but not fully standard globals.
+ *
+ * web workers:
+ *  typeof window -> undefined
+ *  typeof document -> undefined
+ *
+ * react-native:
+ *  navigator.product -> 'ReactNative'
+ * nativescript
+ *  navigator.product -> 'NativeScript' or 'NS'
+ */
+function isStandardBrowserEnv() {
+  if (typeof navigator !== 'undefined' && (navigator.product === 'ReactNative' ||
+                                           navigator.product === 'NativeScript' ||
+                                           navigator.product === 'NS')) {
+    return false;
+  }
+  return (
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined'
+  );
+}
+
+/**
+ * Iterate over an Array or an Object invoking a function for each item.
+ *
+ * If `obj` is an Array callback will be called passing
+ * the value, index, and complete array for each item.
+ *
+ * If 'obj' is an Object callback will be called passing
+ * the value, key, and complete object for each property.
+ *
+ * @param {Object|Array} obj The object to iterate
+ * @param {Function} fn The callback to invoke for each item
+ */
+function forEach(obj, fn) {
+  // Don't bother if no value provided
+  if (obj === null || typeof obj === 'undefined') {
+    return;
+  }
+
+  // Force an array if not already something iterable
+  if (typeof obj !== 'object') {
+    /*eslint no-param-reassign:0*/
+    obj = [obj];
+  }
+
+  if (isArray(obj)) {
+    // Iterate over array values
+    for (var i = 0, l = obj.length; i < l; i++) {
+      fn.call(null, obj[i], i, obj);
+    }
+  } else {
+    // Iterate over object keys
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        fn.call(null, obj[key], key, obj);
+      }
+    }
+  }
+}
+
+/**
+ * Accepts varargs expecting each argument to be an object, then
+ * immutably merges the properties of each object and returns result.
+ *
+ * When multiple objects contain the same key the later object in
+ * the arguments list will take precedence.
+ *
+ * Example:
+ *
+ * ```js
+ * var result = merge({foo: 123}, {foo: 456});
+ * console.log(result.foo); // outputs 456
+ * ```
+ *
+ * @param {Object} obj1 Object to merge
+ * @returns {Object} Result of all merge properties
+ */
+function merge(/* obj1, obj2, obj3, ... */) {
+  var result = {};
+  function assignValue(val, key) {
+    if (typeof result[key] === 'object' && typeof val === 'object') {
+      result[key] = merge(result[key], val);
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Function equal to merge with the difference being that no reference
+ * to original objects is kept.
+ *
+ * @see merge
+ * @param {Object} obj1 Object to merge
+ * @returns {Object} Result of all merge properties
+ */
+function deepMerge(/* obj1, obj2, obj3, ... */) {
+  var result = {};
+  function assignValue(val, key) {
+    if (typeof result[key] === 'object' && typeof val === 'object') {
+      result[key] = deepMerge(result[key], val);
+    } else if (typeof val === 'object') {
+      result[key] = deepMerge({}, val);
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Extends object a by mutably adding to it the properties of object b.
+ *
+ * @param {Object} a The object to be extended
+ * @param {Object} b The object to copy properties from
+ * @param {Object} thisArg The object to bind function to
+ * @return {Object} The resulting value of object a
+ */
+function extend(a, b, thisArg) {
+  forEach(b, function assignValue(val, key) {
+    if (thisArg && typeof val === 'function') {
+      a[key] = bind(val, thisArg);
+    } else {
+      a[key] = val;
+    }
+  });
+  return a;
+}
+
+module.exports = {
+  isArray: isArray,
+  isArrayBuffer: isArrayBuffer,
+  isBuffer: isBuffer,
+  isFormData: isFormData,
+  isArrayBufferView: isArrayBufferView,
+  isString: isString,
+  isNumber: isNumber,
+  isObject: isObject,
+  isUndefined: isUndefined,
+  isDate: isDate,
+  isFile: isFile,
+  isBlob: isBlob,
+  isFunction: isFunction,
+  isStream: isStream,
+  isURLSearchParams: isURLSearchParams,
+  isStandardBrowserEnv: isStandardBrowserEnv,
+  forEach: forEach,
+  merge: merge,
+  deepMerge: deepMerge,
+  extend: extend,
+  trim: trim
+};
+
+},{"./helpers/bind":"../node_modules/axios/lib/helpers/bind.js","is-buffer":"../node_modules/axios/node_modules/is-buffer/index.js"}],"../node_modules/axios/lib/helpers/buildURL.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%40/gi, '@').
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      } else {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    var hashmarkIndex = url.indexOf('#');
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/core/InterceptorManager.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/core/transformData.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
+};
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/cancel/isCancel.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+};
+
+},{}],"../node_modules/axios/lib/helpers/normalizeHeaderName.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('../utils');
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+},{"../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/core/enhanceError.js":[function(require,module,exports) {
+'use strict';
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, request, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+
+  error.request = request;
+  error.response = response;
+  error.isAxiosError = true;
+
+  error.toJSON = function() {
+    return {
+      // Standard
+      message: this.message,
+      name: this.name,
+      // Microsoft
+      description: this.description,
+      number: this.number,
+      // Mozilla
+      fileName: this.fileName,
+      lineNumber: this.lineNumber,
+      columnNumber: this.columnNumber,
+      stack: this.stack,
+      // Axios
+      config: this.config,
+      code: this.code
+    };
+  };
+  return error;
+};
+
+},{}],"../node_modules/axios/lib/core/createError.js":[function(require,module,exports) {
+'use strict';
+
+var enhanceError = require('./enhanceError');
+
+/**
+ * Create an Error with the specified message, config, error code, request and response.
+ *
+ * @param {string} message The error message.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The created error.
+ */
+module.exports = function createError(message, config, code, request, response) {
+  var error = new Error(message);
+  return enhanceError(error, config, code, request, response);
+};
+
+},{"./enhanceError":"../node_modules/axios/lib/core/enhanceError.js"}],"../node_modules/axios/lib/core/settle.js":[function(require,module,exports) {
+'use strict';
+
+var createError = require('./createError');
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  if (!validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response.request,
+      response
+    ));
+  }
+};
+
+},{"./createError":"../node_modules/axios/lib/core/createError.js"}],"../node_modules/axios/lib/helpers/parseHeaders.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+// Headers whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+var ignoreDuplicateOf = [
+  'age', 'authorization', 'content-length', 'content-type', 'etag',
+  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+  'referer', 'retry-after', 'user-agent'
+];
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) { return parsed; }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
+        return;
+      }
+      if (key === 'set-cookie') {
+        parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
+      } else {
+        parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+      }
+    }
+  });
+
+  return parsed;
+};
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/helpers/isURLSameOrigin.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs have full support of the APIs needed to test
+  // whether the request URL is of the same origin as current location.
+    (function standardBrowserEnv() {
+      var msie = /(msie|trident)/i.test(navigator.userAgent);
+      var urlParsingNode = document.createElement('a');
+      var originURL;
+
+      /**
+    * Parse a URL to discover it's components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+      function resolveURL(url) {
+        var href = url;
+
+        if (msie) {
+        // IE needs attribute set twice to normalize properties
+          urlParsingNode.setAttribute('href', href);
+          href = urlParsingNode.href;
+        }
+
+        urlParsingNode.setAttribute('href', href);
+
+        // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+        return {
+          href: urlParsingNode.href,
+          protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+          host: urlParsingNode.host,
+          search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+          hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+          hostname: urlParsingNode.hostname,
+          port: urlParsingNode.port,
+          pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+            urlParsingNode.pathname :
+            '/' + urlParsingNode.pathname
+        };
+      }
+
+      originURL = resolveURL(window.location.href);
+
+      /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+      return function isURLSameOrigin(requestURL) {
+        var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+        return (parsed.protocol === originURL.protocol &&
+            parsed.host === originURL.host);
+      };
+    })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return function isURLSameOrigin() {
+        return true;
+      };
+    })()
+);
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/helpers/cookies.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs support document.cookie
+    (function standardBrowserEnv() {
+      return {
+        write: function write(name, value, expires, path, domain, secure) {
+          var cookie = [];
+          cookie.push(name + '=' + encodeURIComponent(value));
+
+          if (utils.isNumber(expires)) {
+            cookie.push('expires=' + new Date(expires).toGMTString());
+          }
+
+          if (utils.isString(path)) {
+            cookie.push('path=' + path);
+          }
+
+          if (utils.isString(domain)) {
+            cookie.push('domain=' + domain);
+          }
+
+          if (secure === true) {
+            cookie.push('secure');
+          }
+
+          document.cookie = cookie.join('; ');
+        },
+
+        read: function read(name) {
+          var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+          return (match ? decodeURIComponent(match[3]) : null);
+        },
+
+        remove: function remove(name) {
+          this.write(name, '', Date.now() - 86400000);
+        }
+      };
+    })() :
+
+  // Non standard browser env (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return {
+        write: function write() {},
+        read: function read() { return null; },
+        remove: function remove() {}
+      };
+    })()
+);
+
+},{"./../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/adapters/xhr.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+var settle = require('./../core/settle');
+var buildURL = require('./../helpers/buildURL');
+var parseHeaders = require('./../helpers/parseHeaders');
+var isURLSameOrigin = require('./../helpers/isURLSameOrigin');
+var createError = require('../core/createError');
+
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    var requestData = config.data;
+    var requestHeaders = config.headers;
+
+    if (utils.isFormData(requestData)) {
+      delete requestHeaders['Content-Type']; // Let the browser set it
+    }
+
+    var request = new XMLHttpRequest();
+
+    // HTTP basic authentication
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password || '';
+      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
+    }
+
+    request.open(config.method.toUpperCase(), buildURL(config.url, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    // Listen for ready state
+    request.onreadystatechange = function handleLoad() {
+      if (!request || request.readyState !== 4) {
+        return;
+      }
+
+      // The request errored out and we didn't get a response, this will be
+      // handled by onerror instead
+      // With one exception: request that using file: protocol, most browsers
+      // will return status as 0 even though it's a successful request
+      if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+        return;
+      }
+
+      // Prepare the response
+      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
+      var responseData = !config.responseType || config.responseType === 'text' ? request.responseText : request.response;
+      var response = {
+        data: responseData,
+        status: request.status,
+        statusText: request.statusText,
+        headers: responseHeaders,
+        config: config,
+        request: request
+      };
+
+      settle(resolve, reject, response);
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle browser request cancellation (as opposed to a manual cancellation)
+    request.onabort = function handleAbort() {
+      if (!request) {
+        return;
+      }
+
+      reject(createError('Request aborted', config, 'ECONNABORTED', request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(createError('Network Error', config, null, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      reject(createError('timeout of ' + config.timeout + 'ms exceeded', config, 'ECONNABORTED',
+        request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if (utils.isStandardBrowserEnv()) {
+      var cookies = require('./../helpers/cookies');
+
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
+        cookies.read(config.xsrfCookieName) :
+        undefined;
+
+      if (xsrfValue) {
+        requestHeaders[config.xsrfHeaderName] = xsrfValue;
+      }
+    }
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
+        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
+          // Remove Content-Type if data is undefined
+          delete requestHeaders[key];
+        } else {
+          // Otherwise add header to the request
+          request.setRequestHeader(key, val);
+        }
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (config.withCredentials) {
+      request.withCredentials = true;
+    }
+
+    // Add responseType to request if needed
+    if (config.responseType) {
+      try {
+        request.responseType = config.responseType;
+      } catch (e) {
+        // Expected DOMException thrown by browsers not compatible XMLHttpRequest Level 2.
+        // But, this can be suppressed for 'json' type as it can be parsed by default 'transformResponse' function.
+        if (config.responseType !== 'json') {
+          throw e;
+        }
+      }
+    }
+
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', config.onDownloadProgress);
+    }
+
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', config.onUploadProgress);
+    }
+
+    if (config.cancelToken) {
+      // Handle cancellation
+      config.cancelToken.promise.then(function onCanceled(cancel) {
+        if (!request) {
+          return;
+        }
+
+        request.abort();
+        reject(cancel);
+        // Clean up request
+        request = null;
+      });
+    }
+
+    if (requestData === undefined) {
+      requestData = null;
+    }
+
+    // Send the request
+    request.send(requestData);
+  });
+};
+
+},{"./../utils":"../node_modules/axios/lib/utils.js","./../core/settle":"../node_modules/axios/lib/core/settle.js","./../helpers/buildURL":"../node_modules/axios/lib/helpers/buildURL.js","./../helpers/parseHeaders":"../node_modules/axios/lib/helpers/parseHeaders.js","./../helpers/isURLSameOrigin":"../node_modules/axios/lib/helpers/isURLSameOrigin.js","../core/createError":"../node_modules/axios/lib/core/createError.js","./../helpers/cookies":"../node_modules/axios/lib/helpers/cookies.js"}],"../node_modules/axios/lib/defaults.js":[function(require,module,exports) {
+var process = require("process");
+'use strict';
+
+var utils = require('./utils');
+var normalizeHeaderName = require('./helpers/normalizeHeaderName');
+
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded'
+};
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+function getDefaultAdapter() {
+  var adapter;
+  // Only Node.JS has a process variable that is of [[Class]] process
+  if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+    // For node use HTTP adapter
+    adapter = require('./adapters/http');
+  } else if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = require('./adapters/xhr');
+  }
+  return adapter;
+}
+
+var defaults = {
+  adapter: getDefaultAdapter(),
+
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Accept');
+    normalizeHeaderName(headers, 'Content-Type');
+    if (utils.isFormData(data) ||
+      utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data)) {
+      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
+      return JSON.stringify(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    /*eslint no-param-reassign:0*/
+    if (typeof data === 'string') {
+      try {
+        data = JSON.parse(data);
+      } catch (e) { /* Ignore */ }
+    }
+    return data;
+  }],
+
+  /**
+   * A timeout in milliseconds to abort a request. If set to 0 (default) a
+   * timeout is not created.
+   */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  }
+};
+
+defaults.headers = {
+  common: {
+    'Accept': 'application/json, text/plain, */*'
+  }
+};
+
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  defaults.headers[method] = {};
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
+});
+
+module.exports = defaults;
+
+},{"./utils":"../node_modules/axios/lib/utils.js","./helpers/normalizeHeaderName":"../node_modules/axios/lib/helpers/normalizeHeaderName.js","./adapters/http":"../node_modules/axios/lib/adapters/xhr.js","./adapters/xhr":"../node_modules/axios/lib/adapters/xhr.js","process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/axios/lib/helpers/isAbsoluteURL.js":[function(require,module,exports) {
+'use strict';
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
+};
+
+},{}],"../node_modules/axios/lib/helpers/combineURLs.js":[function(require,module,exports) {
+'use strict';
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+};
+
+},{}],"../node_modules/axios/lib/core/dispatchRequest.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+var transformData = require('./transformData');
+var isCancel = require('../cancel/isCancel');
+var defaults = require('../defaults');
+var isAbsoluteURL = require('./../helpers/isAbsoluteURL');
+var combineURLs = require('./../helpers/combineURLs');
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Support baseURL config
+  if (config.baseURL && !isAbsoluteURL(config.url)) {
+    config.url = combineURLs(config.baseURL, config.url);
+  }
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers || {}
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData(
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData(
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+},{"./../utils":"../node_modules/axios/lib/utils.js","./transformData":"../node_modules/axios/lib/core/transformData.js","../cancel/isCancel":"../node_modules/axios/lib/cancel/isCancel.js","../defaults":"../node_modules/axios/lib/defaults.js","./../helpers/isAbsoluteURL":"../node_modules/axios/lib/helpers/isAbsoluteURL.js","./../helpers/combineURLs":"../node_modules/axios/lib/helpers/combineURLs.js"}],"../node_modules/axios/lib/core/mergeConfig.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('../utils');
+
+/**
+ * Config-specific merge-function which creates a new config-object
+ * by merging two configuration objects together.
+ *
+ * @param {Object} config1
+ * @param {Object} config2
+ * @returns {Object} New object resulting from merging config2 to config1
+ */
+module.exports = function mergeConfig(config1, config2) {
+  // eslint-disable-next-line no-param-reassign
+  config2 = config2 || {};
+  var config = {};
+
+  utils.forEach(['url', 'method', 'params', 'data'], function valueFromConfig2(prop) {
+    if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    }
+  });
+
+  utils.forEach(['headers', 'auth', 'proxy'], function mergeDeepProperties(prop) {
+    if (utils.isObject(config2[prop])) {
+      config[prop] = utils.deepMerge(config1[prop], config2[prop]);
+    } else if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    } else if (utils.isObject(config1[prop])) {
+      config[prop] = utils.deepMerge(config1[prop]);
+    } else if (typeof config1[prop] !== 'undefined') {
+      config[prop] = config1[prop];
+    }
+  });
+
+  utils.forEach([
+    'baseURL', 'transformRequest', 'transformResponse', 'paramsSerializer',
+    'timeout', 'withCredentials', 'adapter', 'responseType', 'xsrfCookieName',
+    'xsrfHeaderName', 'onUploadProgress', 'onDownloadProgress', 'maxContentLength',
+    'validateStatus', 'maxRedirects', 'httpAgent', 'httpsAgent', 'cancelToken',
+    'socketPath'
+  ], function defaultToConfig2(prop) {
+    if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    } else if (typeof config1[prop] !== 'undefined') {
+      config[prop] = config1[prop];
+    }
+  });
+
+  return config;
+};
+
+},{"../utils":"../node_modules/axios/lib/utils.js"}],"../node_modules/axios/lib/core/Axios.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./../utils');
+var buildURL = require('../helpers/buildURL');
+var InterceptorManager = require('./InterceptorManager');
+var dispatchRequest = require('./dispatchRequest');
+var mergeConfig = require('./mergeConfig');
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = arguments[1] || {};
+    config.url = arguments[0];
+  } else {
+    config = config || {};
+  }
+
+  config = mergeConfig(this.defaults, config);
+  config.method = config.method ? config.method.toLowerCase() : 'get';
+
+  // Hook up interceptors middleware
+  var chain = [dispatchRequest, undefined];
+  var promise = Promise.resolve(config);
+
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    chain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  while (chain.length) {
+    promise = promise.then(chain.shift(), chain.shift());
+  }
+
+  return promise;
+};
+
+Axios.prototype.getUri = function getUri(config) {
+  config = mergeConfig(this.defaults, config);
+  return buildURL(config.url, config.params, config.paramsSerializer).replace(/^\?/, '');
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, data, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+module.exports = Axios;
+
+},{"./../utils":"../node_modules/axios/lib/utils.js","../helpers/buildURL":"../node_modules/axios/lib/helpers/buildURL.js","./InterceptorManager":"../node_modules/axios/lib/core/InterceptorManager.js","./dispatchRequest":"../node_modules/axios/lib/core/dispatchRequest.js","./mergeConfig":"../node_modules/axios/lib/core/mergeConfig.js"}],"../node_modules/axios/lib/cancel/Cancel.js":[function(require,module,exports) {
+'use strict';
+
+/**
+ * A `Cancel` is an object that is thrown when an operation is canceled.
+ *
+ * @class
+ * @param {string=} message The message.
+ */
+function Cancel(message) {
+  this.message = message;
+}
+
+Cancel.prototype.toString = function toString() {
+  return 'Cancel' + (this.message ? ': ' + this.message : '');
+};
+
+Cancel.prototype.__CANCEL__ = true;
+
+module.exports = Cancel;
+
+},{}],"../node_modules/axios/lib/cancel/CancelToken.js":[function(require,module,exports) {
+'use strict';
+
+var Cancel = require('./Cancel');
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @class
+ * @param {Function} executor The executor function.
+ */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+ * Returns an object that contains a new `CancelToken` and a function that, when called,
+ * cancels the `CancelToken`.
+ */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel
+  };
+};
+
+module.exports = CancelToken;
+
+},{"./Cancel":"../node_modules/axios/lib/cancel/Cancel.js"}],"../node_modules/axios/lib/helpers/spread.js":[function(require,module,exports) {
+'use strict';
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+},{}],"../node_modules/axios/lib/axios.js":[function(require,module,exports) {
+'use strict';
+
+var utils = require('./utils');
+var bind = require('./helpers/bind');
+var Axios = require('./core/Axios');
+var mergeConfig = require('./core/mergeConfig');
+var defaults = require('./defaults');
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Factory for creating new instances
+axios.create = function create(instanceConfig) {
+  return createInstance(mergeConfig(axios.defaults, instanceConfig));
+};
+
+// Expose Cancel & CancelToken
+axios.Cancel = require('./cancel/Cancel');
+axios.CancelToken = require('./cancel/CancelToken');
+axios.isCancel = require('./cancel/isCancel');
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = require('./helpers/spread');
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+},{"./utils":"../node_modules/axios/lib/utils.js","./helpers/bind":"../node_modules/axios/lib/helpers/bind.js","./core/Axios":"../node_modules/axios/lib/core/Axios.js","./core/mergeConfig":"../node_modules/axios/lib/core/mergeConfig.js","./defaults":"../node_modules/axios/lib/defaults.js","./cancel/Cancel":"../node_modules/axios/lib/cancel/Cancel.js","./cancel/CancelToken":"../node_modules/axios/lib/cancel/CancelToken.js","./cancel/isCancel":"../node_modules/axios/lib/cancel/isCancel.js","./helpers/spread":"../node_modules/axios/lib/helpers/spread.js"}],"../node_modules/axios/index.js":[function(require,module,exports) {
+module.exports = require('./lib/axios');
+},{"./lib/axios":"../node_modules/axios/lib/axios.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./styles/main.scss");
@@ -68666,63 +70169,82 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
+const axios = require('axios');
+
 const MODEL_URL = './models';
 const MTCNN_OPTIONS = {
-  minFaceSize: 200
+  minFaceSize: 100 // docReady( async () => { 
+  //   const videoEl = document.getElementById('inputVideo');
+  //   const canvas = document.getElementById('overlay');
+  //   const ctx = canvas.getContext('2d');
+  //   const statusDiv = document.getElementById('status')
+  //   // const faceScoreDiv = document.getElementById('face-score')
+  //   // const faceLabelDiv = document.getElementById('face-label')
+  //   await faceapi.loadSsdMobilenetv1Model(MODEL_URL)
+  //   await faceapi.loadFaceLandmarkModel(MODEL_URL)
+  //   await faceapi.loadMtcnnModel(MODEL_URL)  
+  //   await faceapi.loadFaceRecognitionModel(MODEL_URL)
+  //   statusDiv.innerHTML = 'Models loaded.'
+  //   let res = await axios.get('/data.json')
+  //   let labeledFaceDescriptors = await Promise.all(
+  //       res.data.map(async elem => {
+  //         let arr = new Float32Array( Object.values(elem._descriptors[0]) )
+  //         return new faceapi.LabeledFaceDescriptors(elem._label, [arr])
+  //       })
+  //     )
+  //   statusDiv.innerHTML = 'Face Descriptors loaded.'
+  //   navigator.getUserMedia(
+  //     { 
+  //       video: {} 
+  //     },
+  //     stream => videoEl.srcObject = stream,
+  //     err => console.error(err)
+  //   )
+  // const options = new faceapi.MtcnnOptions(MTCNN_OPTIONS)
+  // const maxDescriptorDistance = 0.6
+  // const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
+  // statusDiv.innerHTML = 'Face Matcher loaded.'
+  // const detect = async () => {
+  //   statusDiv.innerHTML = 'Detecting...'
+  //   const results = await faceapi.detectAllFaces(videoEl, options).withFaceLandmarks().withFaceDescriptors()
+  //   if (results) {
+  //     results.forEach(result => {      
+  //       // faceScoreDiv.innerHTML = `face detected score: ${result.detection.score}`
+  //       ctx.clearRect(0, 0, 640, 480)
+  //       let dims = faceapi.matchDimensions(videoEl, canvas)
+  //       let faceDescription = faceapi.resizeResults(result, dims)
+  //       const matchResults = faceMatcher.findBestMatch(faceDescription.descriptor)
+  //       const box = faceDescription.detection.box
+  //       let text = matchResults.label
+  //       if (text === 'unknown') {
+  //         text = 'not chad'
+  //       }
+  //       // faceLabelDiv.innerHTML = `best match: ${text}`
+  //       const drawBox = new faceapi.draw.DrawBox(
+  //         box, 
+  //         { 
+  //           label: text, 
+  //           lineWidth: 2, 
+  //           boxColor: 'yellow',
+  //           drawLabelOptions: {
+  //             fontColor: 'black',
+  //             fontSize: 36,
+  //             fontStyle: 'Pacifico',
+  //             padding: 6
+  //           } 
+  //         }
+  //       )
+  //       drawBox.draw(canvas)
+  //     })
+  //   }
+  //   requestAnimationFrame(detect);
+  //  }
+  //   videoEl.onplay = detect
+  //   consoleArt()
+  // });
+
 };
-(0, _docReady.docReady)(async () => {
-  await faceapi.loadSsdMobilenetv1Model(MODEL_URL);
-  await faceapi.loadFaceLandmarkModel(MODEL_URL);
-  await faceapi.loadMtcnnModel(MODEL_URL);
-  await faceapi.loadFaceRecognitionModel(MODEL_URL);
-  const labels = ['katie', 'ben', 'anthony', 'marya', 'mel', 'vietnam', 'john', 'greg'];
-  const labeledFaceDescriptors = await Promise.all(labels.map(async label => {
-    // fetch image data from urls and convert blob to HTMLImage element
-    const imgUrl = `./images/${label}.jpg`;
-    const img = await faceapi.fetchImage(imgUrl); // detect the face with the highest score in the image and compute it's landmarks and face descriptor
-
-    const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor();
-
-    if (!fullFaceDescription) {
-      throw new Error(`no faces detected for ${label}`);
-    }
-
-    const faceDescriptors = [fullFaceDescription.descriptor];
-    return new faceapi.LabeledFaceDescriptors(label, faceDescriptors);
-  }));
-  console.log(labeledFaceDescriptors);
-  navigator.getUserMedia({
-    video: {}
-  }, stream => videoEl.srcObject = stream, err => console.error(err));
-  let prevBoxCoords = null;
-  const videoEl = document.getElementById('inputVideo');
-  const canvas = document.getElementById('overlay');
-  const ctx = canvas.getContext('2d');
-  const options = new faceapi.MtcnnOptions(MTCNN_OPTIONS);
-  const maxDescriptorDistance = 0.6;
-  const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance);
-
-  const detect = async () => {
-    const results = await faceapi.detectAllFaces(videoEl, options).withFaceLandmarks().withFaceDescriptors();
-
-    if (results) {
-      results.forEach(result => {
-        ctx.clearRect(0, 0, 640, 480);
-        let dims = faceapi.matchDimensions(videoEl, canvas);
-        let faceDescription = faceapi.resizeResults(result, dims);
-        const matchResults = faceMatcher.findBestMatch(faceDescription.descriptor);
-        console.log(matchResults);
-        faceapi.draw.drawDetections(canvas, faceDescription);
-      });
-    }
-
-    requestAnimationFrame(detect);
-  };
-
-  videoEl.onplay = detect;
-  (0, _logo.consoleArt)();
-});
-},{"./styles/main.scss":"styles/main.scss","face-api.js":"../node_modules/face-api.js/build/es6/index.js","./utils/docReady":"utils/docReady.js","./scripts/logo":"scripts/logo.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./styles/main.scss":"styles/main.scss","face-api.js":"../node_modules/face-api.js/build/es6/index.js","./utils/docReady":"utils/docReady.js","./scripts/logo":"scripts/logo.js","axios":"../node_modules/axios/index.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -68750,7 +70272,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53931" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57009" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
