@@ -73,20 +73,36 @@ header .logo-container h1 {
 }
 
 .tv-container {
+  position: relative;
   display: flex;
+  width: 100%;
+  height: 100vh;
 }
 .tv-container .tv-image {
-  margin: -7% auto 0 5%;
-}
-
-#inputVideo {
   position: absolute;
+  top: -70px;
+  left: 70px;
+  z-index: 1000;
+}
+.tv-container .video-container {
+  position: absolute;
+  left: 170px;
+  top: 250px;
+  color: blue;
   width: 640px;
   height: 480px;
 }
-
-#overlay {
+.tv-container .video-container #inputVideo {
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 800;
+}
+.tv-container .video-container #overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
