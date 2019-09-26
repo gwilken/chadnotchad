@@ -10,23 +10,34 @@ const MTCNN_OPTIONS = { minFaceSize: 100 }
 
 
 docReady( async () => { 
+  chad()
+  consoleArt()
+})
+
+
+const party = () => {
+  const body = document.querySelector('body')
+  body.classList.add('party-on')
+}
+
+
+const chad = async () => {
   const videoEl = document.getElementById('inputVideo');
   const canvas = document.getElementById('overlay');
   const ctx = canvas.getContext('2d');
-
+  
   const statusDiv = document.getElementById('status')
-  // const faceScoreDiv = document.getElementById('face-score')
-  // const faceLabelDiv = document.getElementById('face-label')
+  
+  statusDiv.innerHTML = 'Model loading...'
 
   await faceapi.loadSsdMobilenetv1Model(MODEL_URL)
   await faceapi.loadFaceLandmarkModel(MODEL_URL)
   await faceapi.loadMtcnnModel(MODEL_URL)  
   await faceapi.loadFaceRecognitionModel(MODEL_URL)
 
-  statusDiv.innerHTML = 'Models loaded.'
-
-
   let res = await axios.get('/data.json')
+
+  statusDiv.innerHTML = 'Face Descriptors loading...'
   
   let labeledFaceDescriptors = await Promise.all(
       res.data.map(async elem => {
@@ -35,7 +46,7 @@ docReady( async () => {
       })
     )
 
-  statusDiv.innerHTML = 'Face Descriptors loaded.'
+  statusDiv.innerHTML = 'Connecting video...'
   
   navigator.getUserMedia(
     { 
@@ -45,21 +56,22 @@ docReady( async () => {
     err => console.error(err)
   )
   
+statusDiv.innerHTML = 'Face matcher loading...'
+
 const options = new faceapi.MtcnnOptions(MTCNN_OPTIONS)
 const maxDescriptorDistance = 0.6
 const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
 
-statusDiv.innerHTML = 'Face Matcher loaded.'
 
 const detect = async () => {
-  statusDiv.innerHTML = 'Detecting...'
+  statusDiv.innerHTML = 'Are you Chad? Detecting...'
   
   const results = await faceapi.detectAllFaces(videoEl, options).withFaceLandmarks().withFaceDescriptors()
 
+  let name;
+
   if (results) {
     results.forEach(result => {      
-      // faceScoreDiv.innerHTML = `face detected score: ${result.detection.score}`
-      
       ctx.clearRect(0, 0, 640, 480)
       
       let dims = faceapi.matchDimensions(videoEl, canvas)
@@ -69,12 +81,12 @@ const detect = async () => {
       const box = faceDescription.detection.box
       let text = matchResults.label
       
-      if (text === 'unknown') {
-        text = 'not chad'
+      name = text.slice(0, -2)
+
+      if (name !== 'chad') {
+        text = `not chad - ${name}?`
       }
 
-      // faceLabelDiv.innerHTML = `best match: ${text}`
-    
       const drawBox = new faceapi.draw.DrawBox(
         box, 
         { 
@@ -93,10 +105,18 @@ const detect = async () => {
       drawBox.draw(canvas)
     })
   }
-  requestAnimationFrame(detect);
+
+  if (name !== 'chad') {
+    requestAnimationFrame(detect);
+  } else {
+    const body = document.querySelector('body')
+    body.classList.add('chad-detected')
+    statusDiv.innerHTML = 'It\'s Chad!' 
+
+    setTimeout(() => {
+      party()
+    }, 2000)
+  }
  }
-
   videoEl.onplay = detect
-
-  consoleArt()
-});
+}

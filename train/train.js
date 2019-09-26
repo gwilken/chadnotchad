@@ -15,7 +15,24 @@ const run = async () => {
 
   console.log('models loaded.')
 
-  const labels = ['kevin', 'mika', 'greg']
+  const labels = [
+    'chad-1',
+    'chad-2',
+    'chad-3',
+    // 'chad-4',
+    'chad-5',
+    'chad-6',
+    'chad-7',
+    'chad-8',
+    'greg-1',
+    'john-1',
+    'john-2',
+    'john-3',
+    'katie-1',
+    'katie-2',
+    'katie-3',
+    'katie-4'
+  ]
 
   const labeledFaceDescriptors = await Promise.all(
     labels.map(async label => {
